@@ -38,7 +38,7 @@ ORDER BY id;
 ```sql
 SELECT id, name,
 CASE
-  WHEN characteristics not like '%,%' then characteristics
+  WHEN characteristics NOT LIKE '%,%' then characteristics
   ELSE LEFT(characteristics, POSITION(',' IN characteristics)-1) -- charakterystyczne dla postgresql/ kata nie obsluguje charindex
   END AS characteristic
 FROM monsters 
