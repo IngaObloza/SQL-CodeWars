@@ -46,7 +46,7 @@ month | total_count | total_amount | mike_count | mike_amount | jon_count | jon_
 `jon_amount` - total amount of payments accepted by Jon (`staff_id = 2`)
 
 
-**My solution:**
+### **My solution:**
   
 ```sql
 select extract(month from payment_date) as month, 
