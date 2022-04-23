@@ -29,14 +29,16 @@ month | total_count | total_amount | mike_count | mike_amount | jon_count | jon_
 2     |             |              |            |             |           |           
 5     |             |              |            |             |           |           
 ...
-month - number of the month (1 - January, 2 - February, etc.)
-total_count - total number of payments
-total_amount - total payment amount
-mike_count - total number of payments accepted by Mike (staff_id = 1)
-mike_amount - total amount of payments accepted by Mike (staff_id = 1)
-jon_count - total number of payments accepted by Jon (staff_id = 2)
-jon_amount - total amount of payments accepted by Jon (staff_id = 2)
 ```
+
+`month` - number of the month (1 - January, 2 - February, etc.)
+`total_count` - total number of payments
+`total_amount` - total payment amount
+`mike_count` - total number of payments accepted by Mike (`staff_id = 1`)
+`mike_amount` - total amount of payments accepted by Mike (`staff_id = 1`)
+`jon_count` - total number of payments accepted by Jon (`staff_id = 2`)
+`jon_amount` - total amount of payments accepted by Jon (`staff_id = 2`)
+
 
 **My solution:**
   
