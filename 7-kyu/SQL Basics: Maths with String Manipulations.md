@@ -1,6 +1,6 @@
 ## SQL Basics: Maths with String Manipulations
 
-Given a demographics table in the following format:
+Given a `demographics` table in the following format:
 
 *demographics table schema*
 * id
