@@ -26,7 +26,7 @@ You must return a table with the format as follows:
 Order by `id`
 
 **My solutions:**
-* *notes: only syntax of postgresql worked for this kata on CodeWars*
+* *note: only syntax of postgresql worked for this kata on CodeWars*
 
 ```sql
 SELECT id, name, 
