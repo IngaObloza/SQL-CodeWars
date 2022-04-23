@@ -1,6 +1,6 @@
 ## SQL Basics: Simple JOIN with COUNT
 
-For this challenge you need to create a simple SELECT statement that will return all columns from the people table, and join to the toys table so that you can return the COUNT of the toys
+For this challenge you need to create a simple SELECT statement that will return all columns from the `people` table, and join to the `toys` table so that you can return the COUNT of the toys
 
 *people table schema*
 * id
@@ -13,7 +13,7 @@ For this challenge you need to create a simple SELECT statement that will return
 
 You should return all people fields as well as the toy count as "toy_count".
 
-_NOTE: You're solution should use pure SQL. Ruby is used within the test cases to do the actual testing._
+*NOTE: You're solution should use pure SQL. Ruby is used within the test cases to do the actual testing.*
 
 **My solution:**
   
