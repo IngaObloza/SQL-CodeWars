@@ -14,7 +14,7 @@ Return a table with a column `is_even` containing "Even" or "Odd" depending on `
 * is_even STRING
 
 
-**My solution:**
+**My solutions:**
   
 ```sql
 SELECT 
