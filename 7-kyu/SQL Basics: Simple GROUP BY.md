@@ -18,6 +18,6 @@ For this challenge you need to create a simple GROUP BY statement, you want to g
 ```sql
 SELECT age, COUNT(name) AS people_count
 FROM people 
-WHERE age IS NOT NULL AND name IS NOT NULL
+WHERE age IS NOT NULL AND name IS NOT NULL --fraza nie potrzebna
 GROUP BY age;
 ```  
