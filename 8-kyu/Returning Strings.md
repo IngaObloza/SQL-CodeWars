@@ -11,3 +11,8 @@ Write a select statement that takes `name` from `person` table and return `"Hell
 SELECT CONCAT('Hello, ', name, ' how are you doing today?') AS greeting
 FROM person;  
 ```  
+
+```sql
+SELECT 'Hello, ' || name || ' how are you doing today?' AS greeting
+FROM person
+```
