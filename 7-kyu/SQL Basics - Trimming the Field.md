@@ -26,7 +26,7 @@ You must return a table with the format as follows:
 Order by `id`
 
 **My solutions:**
-* *note: only syntax of postgresql worked for this kata on CodeWars*
+* *note: only syntax of postgresql worked for this kata on CodeWars (comp: CHARINDEX())*
 
 ```sql
 SELECT id, name, 
@@ -39,7 +39,7 @@ ORDER BY id;
 SELECT id, name,
 CASE
   WHEN characteristics NOT LIKE '%,%' THEN characteristics
-  ELSE LEFT(characteristics, POSITION(',' IN characteristics)-1) -- charakterystyczne dla postgresql/ kata nie obsluguje charindex
+  ELSE LEFT(characteristics, POSITION(',' IN characteristics)-1) 
   END AS characteristic
 FROM monsters 
 ORDER BY id;
