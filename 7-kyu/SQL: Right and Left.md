@@ -2,7 +2,7 @@
 
 You are given a table named repositories, format as below:
 
-** repositories table schema **
+**repositories table schema**
 
 * project
 * commits
@@ -15,13 +15,14 @@ For each row: Return first x characters of the project name where x = commits. R
 
 Return project and address columns only, as follows:
 
-** output table schema **
+**output table schema**
 
 * project
 * address
 
 Case should be maintained.
 
+**My solution:**
 
 ```sql
 SELECT LEFT(project, commits) AS project, RIGHT(address, contributors) AS address
