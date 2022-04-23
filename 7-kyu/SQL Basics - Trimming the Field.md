@@ -25,7 +25,7 @@ You must return a table with the format as follows:
 
 Order by `id`
 
-**My solutions:**
+### **My solutions:**
 * *note: only syntax of postgresql worked for this kata on CodeWars (comp: CHARINDEX())*
 
 ```sql
