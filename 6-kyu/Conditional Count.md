@@ -1,6 +1,6 @@
 ## Conditional Count
 
-Given a 'payment' table, which is a part of DVD Rental Sample Database, with the following schema
+Given a `payment` table, which is a part of DVD Rental Sample Database, with the following schema
 
 ```
 Column       | Type                        | Modifiers
@@ -16,7 +16,7 @@ payment_date | timestamp without time zone | not null
 produce a result set for the report that shows a side-by-side comparison of the number and total amounts of payments made in Mike's and Jon's stores broken down by months.
 
 
-The resulting data set should be ordered by 'month' using natural order (Jan, Feb, Mar, etc.).
+The resulting data set should be ordered by `month` using natural order (Jan, Feb, Mar, etc.).
 
 
 *Note: You don't need to worry about the year component. Months are never repeated because the sample data set contains payment information only for one year.*
