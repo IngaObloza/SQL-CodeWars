@@ -11,6 +11,8 @@ Example:
 move(3, 6) should equal 15
 ```
 
+my solution: 
+
 ```sql
 SELECT (position + roll * 2) AS res 
 FROM moves;
