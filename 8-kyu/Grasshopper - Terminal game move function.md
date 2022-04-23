@@ -11,7 +11,7 @@ Example:
 move(3, 6) should equal 15
 ```
 
-my solution: 
+**My solution:** 
 
 ```sql
 SELECT (position + roll * 2) AS res 
