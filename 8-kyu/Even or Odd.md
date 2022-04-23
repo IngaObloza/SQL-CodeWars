@@ -1,6 +1,7 @@
 ## Even or Odd
 
 **SQL Notes:**
+
 You will be given a table, `numbers`, with one column `number`.
 
 
