@@ -11,7 +11,7 @@ You should return all people fields where their age is over 50 and order by the 
 
 NOTE: Your solution should use pure SQL. Ruby is used within the test cases to do the actual testing.
 
-my solution:
+**my solution:**
 
 ```sql
 SELECT *
