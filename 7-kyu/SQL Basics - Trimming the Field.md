@@ -30,9 +30,9 @@ Order by `id`
 
 ```sql
 SELECT id, name, 
-LEFT(characteristics, position(',' in characteristics || ',')-1) as characteristic     
-from monsters 
-order by id;
+LEFT(characteristics, position(',' IN characteristics || ',')-1) AS characteristic     
+FROM monsters 
+ORDER BY id;
 ```
 
 ```sql
