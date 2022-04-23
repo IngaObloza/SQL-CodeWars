@@ -26,6 +26,8 @@ So, your job:
 * Order from most-wins to least
 * Return the top 6. Don't worry about ties.
 
+**My solution:**
+
 ```sql
 SELECT f.name, SUM(f.won) AS won, SUM(f.lost) AS lost
 FROM fighters AS f LEFT JOIN winning_moves AS w 
