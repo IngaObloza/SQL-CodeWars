@@ -1,8 +1,8 @@
 ## Easy SQL: Square Root and Log
 
-Given the following table 'decimals':
+Given the following table `decimals`:
 
-** decimals table schema **
+*decimals table schema*
 
 * id
 * number1
