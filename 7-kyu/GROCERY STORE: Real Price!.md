@@ -27,7 +27,7 @@ Order results by `price_per_kg` ascending, then by `name` ascending.
 * price_per_kg (float)
 
 
-### **My solutions and notes to Kata:**
+## **My solutions and notes to Kata:**
 *Notes: I'm not sure i really understand the only one possible of solution of this kata (nessesery to use casting, format). 
 
 Why it doesn't work (`round()` funcion) for example:
