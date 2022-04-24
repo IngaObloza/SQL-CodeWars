@@ -29,6 +29,7 @@ Order results by `price_per_kg` ascending, then by `name` ascending.
 
 ### **My solutions and notes to Kata:**
 *Notes: I'm not sure i really understand the only one possible of solution of this kata (nessesery to use casting, format). 
+
 Why it doesn't work (`round()` funcion) for example:
 `ROUND((price / (weight / 1000)), 2) as price_per_kg`
 
