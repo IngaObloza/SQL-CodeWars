@@ -47,7 +47,7 @@ Finally I got to the desirable solution thanks to searching a lot in net, but i'
 Maby is more advanced than 7-kyu
 
 
-**solutions which worked (CodeWars):**
+**My solutions which worked corectly (CodeWars):**
 
 ```sql
 SELECT name, weight, price,
