@@ -29,8 +29,8 @@ Order results by `price_per_kg` ascending, then by `name` ascending.
 
 ### **My solutions and notes to Kata:**
 *Notes: I'm not sure i really understand the only one possible of solution of this kata (nessesery to use casting, format). 
-Why it doesn't work (`round()` funcion):
-`ROUND((price / (weight / 1000)), 2) as price_per_kg  -- dlaczego nie działa?`
+Why it doesn't work (`round()` funcion) for example:
+`ROUND((price / (weight / 1000)), 2) as price_per_kg`
 
 Maby I have to stronger understand and learn specificity of numeric datatypes used with arithmetic/math Operations or specific of postgreSql syntaxs. 
 
@@ -38,9 +38,10 @@ Another problem can be with specificity of CodeWars working: solutions is checke
 There is possibility that this Kata sets too much accent on adapting output to the test result template (math operating and 'take care on decimal places'). whether there will be problem, in real life with division result being numeric or floating-point?
 Maby siply using of round() funcion will be enough?
 
-I got to the desirable solution at least with searching a lot in net, but i'm not sure it was wort of spended time. 
-(* what i understand: math operation in query, usage of "as", order by, round()
-* what i don't quite: nessesery to use cast() for math operations with float data type for each).
+Finally I got to the desirable solution thanks to searching a lot in net, but i'm not sure it was wort of spended time.
+
+* what i understand: math operation in query, usage of "as", order by, round()
+* what i don't quite: nessesery to use cast() for math operations with float data type for each (arguments)
 
 Maby is more advanced than 7-kyu
 
@@ -51,11 +52,6 @@ Maby is more advanced than 7-kyu
 SELECT name, weight, price,
 cast(round(CAST(price / weight * 1000 as numeric), 2) as float) as price_per_kg -- 'as real' instead of 'as float' works too
  
--- round(((price / weight * 1000) :: numeric), 2) :: float as price_per_kg
-
-
---ROUND((price / (weight / 1000)), 2) as price_per_kg // dlaczego nie działa?
-
 FROM products
 ORDER BY price_per_kg, name;
 ```
@@ -64,8 +60,7 @@ ORDER BY price_per_kg, name;
 SELECT name, weight, price,
 round(((price / weight * 1000) :: numeric), 2) :: real as price_per_kg -- 'as float' instead of 'as real' works too
 
-
---ROUND((price / (weight / 1000)), 2) as price_per_kg // dlaczego nie działa? / why doesn't work?
+--ROUND((price / (weight / 1000)), 2) as price_per_kg -- why doesn't works? / instead of line above
 
 FROM products
 ORDER BY price_per_kg, name
