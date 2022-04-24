@@ -44,7 +44,7 @@ Finally I got to the desirable solution thanks to searching a lot in net, but i'
 * what i understand: math operation in query, usage of "as", order by, round()
 * what i don't quite: nessesery to use cast() for math operations with float data type for each (arguments)
 
-Maby is more advanced than 7-kyu
+Maby is more advanced than 7-kyu and descripcion of task should be more specific taking under concern test requirement.
 
 
 **My solutions which worked corectly (CodeWars):**
