@@ -7,9 +7,9 @@ Customer often need to now how much really they pay for the products. Manufactur
 
 Make a SELECT query which will tell the price per kg of the product.
 
-Weight is in grams! Round the price_per_kg to 2 decimal places.
+Weight is in grams! Round the `price_per_kg` to 2 decimal places.
 
-Order results by price_per_kg ascending, then by name ascending.
+Order results by `price_per_kg` ascending, then by `name` ascending.
 
 *Products table schema:*
 * id (int)
@@ -27,7 +27,7 @@ Order results by price_per_kg ascending, then by name ascending.
 * price_per_kg (float)
 
 
-### **My solutions:**
+### **My solutions and notes to Kata:**
 *Notes: I'm not sure i really understand the only one possible of solution of this kata (nessesery to use casting, format). 
 Why it doesn't work (`round()` funcion):
 `ROUND((price / (weight / 1000)), 2) as price_per_kg  -- dlaczego nie działa?`
